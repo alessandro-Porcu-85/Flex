@@ -1,0 +1,319 @@
+                                                                body {
+                                                                    height: 300vh;
+                                                                }
+                                                                
+                                                                * {
+                                                                    box-sizing: content-box;
+                                                                    padding: 10px 10px;
+                                                                }
+                                                                
+                                                                .container-fluid {
+                                                                    background-color: rgb(0, 0, 0);
+                                                                    height: 20vh;
+                                                                    padding-top: 10px;
+                                                                    margin-top: 20px;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                }
+                                                                
+                                                                div.container-fluid-1 {
+                                                                    background-color: rgb(0, 0, 0);
+                                                                    height: 50vh;
+                                                                    padding-top: 10px;
+                                                                    padding-bottom: 40px;
+                                                                    margin-top: 20px;
+                                                                    display: flex;
+                                                                }
+                                                                
+                                                                .container-fluid-2 {
+                                                                    background-color: rgb(216, 36, 36);
+                                                                    height: 9vh;
+                                                                    margin-top: 20px;
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                div.row-1 {
+                                                                    background-color: rgb(42, 83, 219);
+                                                                    display: center;
+                                                                    height: 40%;
+                                                                    margin: 10px;
+                                                                    align-items: center;
+                                                                    display: flex;
+                                                                    padding: 4vh;
+                                                                }
+                                                                
+                                                                div.row-2 {
+                                                                    background-color: rgb(247, 188, 60);
+                                                                    display: center;
+                                                                    height: 40%;
+                                                                    margin: 10px;
+                                                                    align-items: center;
+                                                                    display: flex;
+                                                                    padding: 4vh;
+                                                                }
+                                                                
+                                                                .item {
+                                                                    background-color: rgb(255, 0, 0);
+                                                                    width: 62vw;
+                                                                    padding-left: 20px;
+                                                                    margin-left: 30px;
+                                                                    text-align: center;
+                                                                    margin-right: 30px;
+                                                                    height: 4vh;
+                                                                }
+                                                                
+                                                                .item-middle {
+                                                                    background-color: rgb(255, 0, 0);
+                                                                    width: 185vw;
+                                                                    padding-left: 20px;
+                                                                    margin-left: 30px;
+                                                                    text-align: center;
+                                                                    margin-right: 33px;
+                                                                    height: 4vh;
+                                                                }
+                                                                
+                                                                .item-row-2 {
+                                                                    background-color: rgb(255, 225, 0);
+                                                                    width: 100vw;
+                                                                    padding-left: 20px;
+                                                                    margin-left: 30px;
+                                                                    margin-right: 33px;
+                                                                    height: 4vh;
+                                                                }
+                                                                
+                                                                .container-inner {
+                                                                    background-color: rgb(100, 91, 91);
+                                                                    margin-right: 25px;
+                                                                    margin-left: 25px;
+                                                                    /*below here there are two important value to fix the inner container in the center of the outer container*/
+                                                                    margin-top: 15px;
+                                                                    height: 100%;
+                                                                    width: 60vw;
+                                                                    padding-top: 40px;
+                                                                    padding-bottom: 20px;
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                }
+                                                                
+                                                                .container-inner-2 {
+                                                                    background-color: rgb(94, 53, 243);
+                                                                    margin-right: 25px;
+                                                                    margin-left: 25px;
+                                                                    /*below here there are two important value to fix the inner container in the center of the outer container*/
+                                                                    margin-top: 15px;
+                                                                    height: 100%;
+                                                                    width: 40vw;
+                                                                    justify-content: center;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                
+                                                                .container-inner-1 {
+                                                                    background-color: rgb(85, 42, 202);
+                                                                    /*below here there are two important value to fix the inner container in the center of the outer container*/
+                                                                    height: 4vh;
+                                                                    margin-top: 20px;
+                                                                    margin-left: 25px;
+                                                                    margin-right: 25px;
+                                                                }
+                                                                
+                                                                .master-container {
+                                                                    margin-left: 20px;
+                                                                    margin-right: 20px;
+                                                                    height: 30px;
+                                                                }
+                                                                
+                                                                .item-1 {
+                                                                    background-color: rgb(255, 0, 0);
+                                                                    width: 23vw;
+                                                                    height: 4vh;
+                                                                    margin-left: 30px;
+                                                                    margin-right: 30px;
+                                                                }
+                                                                
+                                                                .item-last {
+                                                                    background-color: rgb(255, 0, 0);
+                                                                    width: 48.8vw;
+                                                                    height: 4vh;
+                                                                }
+                                                                
+                                                                .item-2 {
+                                                                    background-color: rgb(255, 0, 0);
+                                                                    height: 4vh;
+                                                                    margin-top: 98px;
+                                                                    justify-content: center;
+                                                                    margin-right: 30px;
+                                                                    margin-left: 30px;
+                                                                }
+                                                                /*-----------------------Media Query---------------------------*/
+                                                                /*Viewport for tablet: 
+-768
+-900
+*/
+                                                                /*------------Viewport less than or equal to 1755px-------------*/
+                                                                
+                                                                @media only screen and (max-width:1755px) {
+                                                                    /*all css codes goes here*/
+                                                                    div.container-inner {
+                                                                        background-color: hsl(113, 92%, 29%);
+                                                                        width: 90.5vw;
+                                                                        height: 50vh;
+                                                                        margin-top: 30px;
+                                                                        /*below here there are two important value to fix the inner container in the center of the outer container*/
+                                                                    }
+                                                                    .item-last {
+                                                                        margin-bottom: 1vh !important;
+                                                                        background-color: blanchedalmond;
+                                                                        margin-right: 4vw !important;
+                                                                        margin-left: 4vw !important;
+                                                                        width: 129vw;
+                                                                        margin-top: 20px;
+                                                                    }
+                                                                    .item,
+                                                                    .item-middle,
+                                                                    .item-row-2,
+                                                                    .item-2 {
+                                                                        height: 4vh;
+                                                                    }
+                                                                    .item-1 {
+                                                                        background-color: black;
+                                                                        width: 39.2vw;
+                                                                    }
+                                                                    .item-2 {
+                                                                        background-color: rgb(0, 21, 255);
+                                                                        margin-top: 38px;
+                                                                        padding-right: -40px;
+                                                                    }
+                                                                    div.row-1,
+                                                                    div.row-2 {
+                                                                        height: 10vh;
+                                                                    }
+                                                                    div.row-2 {
+                                                                        margin-top: 1.4vh;
+                                                                    }
+                                                                    div.container-fluid {
+                                                                        height: 26vh;
+                                                                    }
+                                                                    div.container-fluid-2 {
+                                                                        background-color: aqua;
+                                                                        height: 11vh;
+                                                                        margin-top: 30px;
+                                                                        padding-right: 5.2vw;
+                                                                        padding-left: 5.2vw;
+                                                                    }
+                                                                    div.container-inner-2 {
+                                                                        background-color: rgb(165, 247, 35);
+                                                                        margin-top: 4vh !important;
+                                                                        height: 26vh;
+                                                                        width: 90.5vw;
+                                                                    }
+                                                                    div.container-fluid-1 {
+                                                                        background-color: rgb(99, 42, 165);
+                                                                        justify-content: center;
+                                                                        flex-direction: column;
+                                                                        /*drift down the container*/
+                                                                        height: 78vh;
+                                                                    }
+                                                                }
+                                                                /*------x-----Viewport less than or equal to 1755px-------x-----*/
+                                                                /*------------Viewport less than or equal to 800px-------------*/
+                                                                
+                                                                @media only screen and (max-width:800px) {
+                                                                    /*all css code goes here*/
+                                                                    div.container-inner {
+                                                                        background-color: hsl(125, 95%, 55%);
+                                                                        width: 78vw;
+                                                                        align-items: center;
+                                                                        margin-top: 3.5vh;
+                                                                        height: 100vh!important;
+                                                                        /*below here there are two important value to fix the inner container in the center of the outer container*/
+                                                                    }
+                                                                    div.container-inner-2 {
+                                                                        background-color: rgb(35, 247, 244);
+                                                                        margin-top: 2vh !important;
+                                                                        width: 78vw;
+                                                                        padding-bottom: 2.5vh!important;
+                                                                        height: 48vh;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .item-2 {
+                                                                        background-color: rgb(0, 21, 255);
+                                                                        margin-top: 4vh;
+                                                                    }
+                                                                    div.container-fluid-1 {
+                                                                        background-color: rgb(99, 42, 165);
+                                                                        height: 78vh;
+                                                                        align-items: center;
+                                                                        padding-right: 9vw;
+                                                                        padding-left: 9vw;
+                                                                        margin-top: 4vh;
+                                                                        padding-top: 0vh;
+                                                                    }
+                                                                    .item-1 {
+                                                                        width: 65vw;
+                                                                    }
+                                                                    .item-last {
+                                                                        margin-bottom: 1vh !important;
+                                                                        background-color: blanchedalmond;
+                                                                        margin-top: 0vh;
+                                                                        width: 65vw;
+                                                                    }
+                                                                    .master-container {
+                                                                        margin-bottom: 30px;
+                                                                        margin-right: 4.2vw;
+                                                                    }
+                                                                    .container-inner-1 {
+                                                                        background-color: crimson;
+                                                                        margin-top: 2.5vh;
+                                                                    }
+                                                                    div.container-fluid-2 {
+                                                                        background-color: aqua;
+                                                                        height: 11vh;
+                                                                        padding-right: 5.2vw;
+                                                                        padding-left: 5.2vw;
+                                                                        align-items: center;
+                                                                        margin-top: 4vh;
+                                                                        padding-top: 1vh;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .container-fluid {
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                        height: 50vh !important;
+                                                                    }
+                                                                    .item-middle {
+                                                                        margin-left: 10px;
+                                                                        margin-right: 16px;
+                                                                    }
+                                                                    div.row-1,
+                                                                    div.row-2 {
+                                                                        margin-left: 4vw;
+                                                                        margin-right: 4vw;
+                                                                        margin-top: 4vh;
+                                                                    }
+                                                                    .row-2 {
+                                                                        margin-top: 4vh;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    .item-row-2 {
+                                                                        background-color: blue;
+                                                                        margin-left: 1vw;
+                                                                        margin-right: 1vw;
+                                                                    }
+                                                                    .item {
+                                                                        margin-left: 1vw;
+                                                                        margin-right: 1vw;
+                                                                    }
+                                                                    div.row-1 {
+                                                                        flex-wrap: wrap;
+                                                                        height: 28vh;
+                                                                        padding-bottom: 2vh;
+                                                                        padding-top: 2vh;
+                                                                    }
+                                                                    .container-fluid {
+                                                                        height: 50.5vh!important;
+                                                                    }
+                                                                }
+                                                                /*-------x-----Viewport less than or equal to 800px-----x--------*/
